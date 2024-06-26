@@ -1,0 +1,148 @@
+nav {
+  display: flex;
+  margin-right: 5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  background-color: #0c005a;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+nav ul li {
+  list-style: none;
+  gap: 10px;
+}
+.Home-Dashbord {
+  margin: 1rem;
+  margin-bottom: 0;
+  height: 89vh;
+  width: 98%;
+  border-radius: 1rem;
+  padding: 0;
+}
+
+.Add_form {
+  padding: 10px;
+  background-color: #f0f8ff;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+input {
+  padding: 5px;
+  background-color: #f0f8ff;
+  border-bottom: 2px solid black;
+}
+
+#Description {
+  width: 100%;
+  height: 5rem;
+}
+.Transaction {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: #ffff;
+}
+.Expenselist {
+  background-color: #f0f8ff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.Add_Expense,
+.Expense {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.historyComponent {
+  overflow-y: hidden;
+  height: 92.5vh;
+  width: 100%;
+  background-color: #dfdfdf;
+}
+
+.Graphleft {
+  height: 100%;
+  width: 25%;
+  z-index: 3;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.PieChart {
+  background-color: #dfdfdf;
+  margin: 0 1rem;
+  height: 18.3rem;
+}
+.Graphright {
+  height: 99%;
+  width: 80%;
+  background-color: #dfdfdf;
+}
+
+.GraphComponent {
+  height: 28rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.GraphItems {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background-color: #6528f7;
+  color: #f6f6f6;
+}
+.totalExpense {
+  background-color: #ff0000;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.Cashbar {
+  background-color: #00c49f;
+}
+.UPIbar {
+  background-color: #0088fe;
+}
+.Netbankingbar {
+  background-color: #ffbb28;
+}
+.CreditCardbar {
+  background-color: #ff8042;
+}
+.PieContainer {
+  height: 11rem;
+}
+.newTransactions {
+  width: 100%;
+  height: 100%;
+}
+.cal {
+  width: fit-content;
+}
+.latestTransaction {
+  background-color: #7900ff;
+  font-size: 1rem;
+
+  color: #fff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.latest {
+  letter-spacing: 0.1rem;
+  color: #6528f7;
+}
+.Transactions {
+  overflow-y: scroll;
+}
